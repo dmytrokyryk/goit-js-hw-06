@@ -1,0 +1,15 @@
+/* task 03 styles start*/
+
+.gallery {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .image {
+    display: block;
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
+  }
